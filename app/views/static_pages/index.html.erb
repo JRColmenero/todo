@@ -4,6 +4,18 @@
   </header>
 
   <section class="main">
+    <ul class="main">
+
+
+    </ul>
 
   </section>
 </section>
+
+<script>
+  $(function() {
+    $.get("/tasks").success( function( data ) {
+      console.log(data);
+    });
+  });
+</script>
